@@ -100,10 +100,10 @@ onMounted(async () => {
         <SettingOutlined class="pl-3 cursor-pointer" @click="state.visible = true" />
       </a-tooltip>
 
-      <a-tooltip>
-        <template #title>开源地址</template>
-        <GithubOutlined class="pl-3 cursor-pointer" @click="handleToGithub" />
-      </a-tooltip>
+//      <a-tooltip>
+//        <template #title>开源地址</template>
+//        <GithubOutlined class="pl-3 cursor-pointer" @click="handleToGithub" />
+//      </a-tooltip>
 
       <span class="float-right pr-3 pt-2">
         当前余额：{{ totalAvailable }}
@@ -123,7 +123,7 @@ onMounted(async () => {
             <div class="flex-1 w-full self-center">
               <div class="relative px-3 py-1 m-auto flex flex-col">
                 <div class="mx-0 my-1 self-center text-xs text-gray-400">
-                  频道已创建
+                  本系统仅用于大科学装置技术调研，请依照当地法律，合法合规使用！
                 </div>
                 <div class="mx-0 my-1 self-center text-xs text-gray-400">
                   {{ createdAt }}
