@@ -100,11 +100,12 @@ onMounted(async () => {
         <SettingOutlined class="pl-3 cursor-pointer" @click="state.visible = true" />
       </a-tooltip>
 
-//      <a-tooltip>
-//        <template #title>开源地址</template>
-//        <GithubOutlined class="pl-3 cursor-pointer" @click="handleToGithub" />
-//      </a-tooltip>
-
+/*
+      <a-tooltip>
+        <template #title>开源地址</template>
+        <GithubOutlined class="pl-3 cursor-pointer" @click="handleToGithub" />
+      </a-tooltip>
+*/
       <span class="float-right pr-3 pt-2">
         当前余额：{{ totalAvailable }}
         <a-tooltip>
