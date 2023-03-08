@@ -10,7 +10,7 @@ type Setting = {
 const setting = useStorage<Setting>('setting', {
   app_key: '',
   model: 'text-davinci-003',
-  continuously: false,
+  continuously: true,
 })
 
 const useSetting = () => setting
